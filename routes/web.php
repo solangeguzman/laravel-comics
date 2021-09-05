@@ -12,7 +12,26 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// da web sto chiamando la reale pagine 'home'
+
+// Route::get('/', function () {
+//     return view('home');
+// });
+
+
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $comics = config('comics');
+    return view('home', [
+        'comics'=>$comics
+    ]);     
+})-> name('homepage'); 
+
+Route::get('/product/{id}', function ($id) {
+   $arrayIndex= $id -1;
+    $comics= config('comics');
+
+    return view('product', [
+        'comicsIndex'=> $comics[$arrayIndex]
+    ]);
+})->name('product');

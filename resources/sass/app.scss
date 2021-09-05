@@ -1,1 +1,24 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'header.scss';
+@import 'main.scss';
+@import 'footer.scss';
+@import 'product.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: black;
+}
+
+footer{
+    .f-text{
+        color: white;
+    }
+}
