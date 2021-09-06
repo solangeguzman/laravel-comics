@@ -18,7 +18,10 @@
         <li><a href="#" class="nav-menu" ><strong>FANS</strong></a></li>
         <li><a href="#" class="nav-menu"><strong>NEWS</strong></a></li>
         <li><a href="#" class="nav-menu"><strong>SHOP</strong></a></li>
-
+        <li class="search">
+             <input id="search" type="search" name="search" placeholder="Search" />
+             <button><i class="fa fa-search"></i></button>
+        </li>
     </ul>
 </nav>
 <div class=" container-full section-img">

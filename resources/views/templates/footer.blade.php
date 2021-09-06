@@ -1,9 +1,8 @@
-<!-- ciò che inserisco nel footer -->
 
 <div class="container-fluid">
     <div class="container">
-      <div class="row justify-content-between" >
-            <div class="">
+      <div class="row justify-content-between col-12 contenuto-ul"  >
+            <div class="col-4">
                 <ul>
                     <li class="f-text">DC COMICS</li>
                     <li><a href="#">Characters</a></li>
@@ -21,7 +20,7 @@
                 </ul>
             </div>
 
-            <div class="column">
+            <div class="col-4">
                 <ul>
                     <li class="f-text">DC</li>
                     <li><a href="#">Terms Of Use</a></li>
@@ -37,19 +36,47 @@
                 </ul>
             </div>
 
-            <div class="column">
+            <div class="col-4">
                 <ul>
                     <li class="f-text">SITES</li>
                     <li><a href="#">DC</a></li>
-                    <li><a href="#">DC UNIVERSE INFINITE</a></li>
-                    <li><a href="#">DC Kids</a></li>
-                    <li><a href="#">DC Shop</a></li>
                     <li><a href="#">MAD Magazine</a></li>
+                    <li><a href="#">DC Kids</a></li>
+                    <li><a href="#">DC Universe </a></li>
+                    <li><a href="#">DC Power Visa</a></li>
+                    
                 </ul>
+                dddddddddd
             </div>
-      </div>
 
-      <img src="/img/dc-logo-bg.png" alt="" />
-    </div>
+            <img class="img-logo" src="/img/dc-logo-bg.png" width="400" height="282" alt="" />
+      </div>
     
+      
+    </div> 
+    <div class="content-button ">
+     <button class="button">
+      <strong>SING-UP NOW!</strong>   
+     </button>
+     <div>
+          <ul class="web-pag d-flex ">
+              <li><span class="followers"><strong>FOLLOW US</strong></span></li>
+              <li>
+                <img src="/img/footer-facebook.png" alt="" />
+              </li>
+              <li>
+                <img src="/img/footer-periscope.png" alt="" />
+              </li>
+              <li>
+                <img src="/img/footer-twitter.png" alt="" />
+              </li>
+              <li>
+                <img src="/img/footer-pinterest.png" alt="" />
+              </li>
+              <li>
+                <img src="/img/footer-youtube.png" alt="" />
+              </li>
+            </ul>
+     </div>
+    </div>
 </div>

@@ -1,3 +1,44 @@
 .f-text{
     color: white;
 }
+
+footer{
+    background:  url("/img/footer-bg.jpg");
+    position: relative;
+}
+
+.img-logo{
+    position: absolute;
+    // margin-bottom: 10%;
+    margin-left: 700px;
+}
+.content-button{
+    background-color: rgb(58, 56, 56);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 4px;
+    border: rgb(57, 96, 202) solid 2px;
+    color: white;
+    background-color: rgb(58, 55, 55);
+}
+.contenuto-ul{
+    // background-color: green;
+    width: 600px;
+    .li{
+        // display: inline;
+        // text-decoration: none;
+    }
+}
+.web-page{
+    // justify-content: flex-end;
+    padding: 10px;
+}
+
+.followers{
+    color: rgb(57, 96, 202);
+    margin: 5px;
+    font-size: 16px;
+}
